@@ -37,9 +37,9 @@ int main(){
         if(lista.front() == 3 || lista.front() == 1){
             rodar(lista);
             lista.pop_front();              // REALIZA O SALTO 2X
-            rodar(lista);
-            lista.pop_front();
         }
+        rodar(lista);
+        lista.pop_front();
     }
 
     printf("Vencedor: ");
