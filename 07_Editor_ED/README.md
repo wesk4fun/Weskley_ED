@@ -1,7 +1,4 @@
-#NAO TA ATUALIZADO, MANDEI SEM O CTRL SEM QUERER, VOU ATUALIZAR QUANDO CHEGAR
-DO TRABALHO
-
-#Relátorio
+# Relátorio
 
 eu havia feito o delete e backspace, mas nao conseguir fazer o ctrl+z e ctrl+r, pois nao entendi bem como criar e
 salvar novos ambientes, e nao quis enviar incompleto, portanto eu copiei essas duas funções do seu codigo em aula.
