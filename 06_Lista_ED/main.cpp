@@ -172,16 +172,13 @@ public:
             auto aux = node->next;
             return aux;
         }
-        node->next = _rinserir_ordenado(node->next, value);
-        //todo
+        node->next = _inserir_ordenado(node->next, value);
     }
 
     void rinserir_ordenado(int value){
         head = _inserir_ordenado(head, value);
-        //todo
     }
 
-    //todo
     int size(){
         if(head == nullptr)
             return;
@@ -189,10 +186,9 @@ public:
     }
 
     int rsomar(Node * node){
-        if(node == nullptr)
-            return;
-        this->head += node->next;
-        //todo
+        if(node->next == nullptr)
+            return node->value;
+        return node->value + rsomar(node->next);
     }
 
     int rmin(Node * node){
@@ -200,7 +196,6 @@ public:
             return node->value;
         return std::min(node->value, rmin(node->next));
     }
-
 };
 
 int main(){
